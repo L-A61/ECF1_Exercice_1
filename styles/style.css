@@ -1,0 +1,178 @@
+/* Media query pour résolution smartphone */
+@media screen and (max-width: 768px) {
+    .title-container {
+        display: flex;
+        align-items: center;
+    }
+
+    #title {
+        display: flex;
+        text-align: center;
+        font-size: 50px;
+        font-family: "Pacifico", cursive;
+        color: rgb(127, 212, 0);
+    }
+
+    #logo {
+        width: auto;
+        height: auto;
+    }
+
+    .navbar-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(31, 31, 31);
+        gap: 20px;
+    }
+
+    .course-link {
+        text-decoration: none;
+        color: white;
+    }
+
+    h2 {
+        margin: auto;
+        background-color: rgb(127, 212, 0);
+        color: white;
+        max-height: fit-content;
+        font-family: "Pacifico", cursive;
+    }
+
+    .footer-container {
+        display: flex;
+        align-content: flex-end;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: grey;
+    }
+}
+
+/* Media query pour résolution tablette */
+@media screen and (min-width: 769px) {
+    .title-container {
+        display: flex;
+        align-items: center;
+    }
+
+    #title {
+        display: flex;
+        text-align: center;
+        font-size: 50px;
+        font-family: "Pacifico", cursive;
+        color: rgb(127, 212, 0);
+    }
+
+    #logo {
+        width: auto;
+        height: auto;
+    }
+
+    .navbar-container {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(31, 31, 31);
+    }
+
+    .course-link {
+        text-decoration: none;
+        color: white;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .course-container {
+        width: 25%;
+    }
+
+    .info-container {
+        width: 75%;
+    }
+
+    h2 {
+        margin: auto;
+        background-color:  rgb(127, 212, 0);
+        font-family: "Pacifico", cursive;
+        color: white;
+    }
+
+    .footer-container {
+        display: flex;
+        align-content: flex-end;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: grey;
+    }
+}
+
+/* Media query pour résolution suppérieur à 992px*/
+@media screen and (min-width: 993px) {
+    #title {
+        text-align: center;
+        margin-left: 5%;
+        font-size: 50px;
+        font-family: "Pacifico", cursive;
+        color: rgb(127, 212, 0);
+    }
+
+    #logo {
+        width: auto;
+        height: auto;
+    }
+
+    .navbar-container {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(31, 31, 31);
+    }
+
+    .course-link {
+        text-decoration: none;
+        color: white;
+    }
+
+    .course-container {
+        width: 100%;
+    }
+
+    .info-container {
+        width: 100%;
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        width: 100%;
+        margin: auto;
+        background-color: rgb(127, 212, 0);
+        color: white;
+        max-height: fit-content;
+        font-family: "Pacifico", cursive;
+    }
+
+    .footer-container {
+        display: flex;
+        align-content: flex-end;
+        justify-content: flex-end;
+        gap: 10px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: grey;
+    }
+}
